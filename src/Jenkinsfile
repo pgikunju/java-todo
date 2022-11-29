@@ -26,5 +26,11 @@ pipeline {
        }
       }
     }
+    stage('hELLO WORLD') {
+      steps {
+        echo 'Hello World'
+      }
+    }
+      
   }
 }
